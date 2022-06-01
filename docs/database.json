@@ -60,5 +60,18 @@
 			"https://astroneer.fandom.com/wiki/Multiplayer",
 			"https://www.youtube.com/watch?v=o3LCJKpC9zo"
 		]
+	},
+	"r6": {
+		"displayName": "Tom Clancy's Rainbow Six Siege",
+		"platforms": ["PC", "PlayStation", "Xbox"],
+		"list": [
+			[true, false, false],
+			[false, true, false],
+			[false, false, true]
+		],
+		"lastUpdated": "2022-05-31",
+		"sources": [
+			"https://www.ubisoft.com/en-us/help/rainbow-six-siege/article/cross-play-and-cross-progression-in-rainbow-six-siege/000097631"
+		]
 	}
 }
