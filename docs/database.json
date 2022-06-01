@@ -36,7 +36,12 @@
 		],
 		"footnote": "Dedicated servers are needed.",
 		"seeMore": "https://ark.fandom.com/wiki/Server_configuration",
-		"lastUpdated": "2022-03-12"
+		"lastUpdated": "2022-03-12",
+		"sources": [
+			"https://www.ofzenandcomputing.com/is-ark-cross-platform",
+			"https://gamesbustop.com/is-ark-survival-evolved-cross-platform/",
+			"https://www.techshout.com/is-ark-cross-platform/"
+		]
 	},
 	"astroneer": {
 		"displayName": "Astroneer",
