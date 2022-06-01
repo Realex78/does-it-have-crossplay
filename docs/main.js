@@ -61,10 +61,17 @@ function addDataToTable(gameTitle, selector, table, database) {
 	const list = document.createElement("ul")
 	gameData.sources.forEach((source) => {
 		const element = document.createElement("li")
-		element.append(source)
+
+		const link = document.createElement("a")
+		link.append(source)
+		link.setAttribute("href", source)
+		link.setAttribute("target", "_blank")
+
+		element.appendChild(link)
 		list.appendChild(element)
 	})
 	sourceElement.appendChild(list)
+	document.getElementsByTagName("body")[0].appendChild(sourceElement)
 }
 
 fetch("database.json").then((response) => response.json()).then((database) => {
