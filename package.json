@@ -1,0 +1,23 @@
+{
+  "name": "does-it-have-crossplay",
+  "version": "0.1.0",
+  "description": "Does a game have crossplay?",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Realex78/does-it-have-crossplay.git"
+  },
+  "author": "Realex78",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Realex78/does-it-have-crossplay/issues"
+  },
+  "homepage": "https://github.com/Realex78/does-it-have-crossplay#readme",
+  "dependencies": {
+    "express": "^4.18.1"
+  }
+}

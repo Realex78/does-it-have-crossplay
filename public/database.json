@@ -1,0 +1,59 @@
+{
+	"fortnite": {
+		"displayName": "Fortnite",
+		"platforms": ["PC", "Mac", "PlayStation", "Xbox", "Nintendo Switch", "Android"],
+		"list": [
+			[true, true, true, true, true, true],
+			[true, true, true, true, true, true],
+			[true, true, true, true, true, true],
+			[true, true, true, true, true, true],
+			[true, true, true, true, true, true],
+			[true, true, true, true, true, true]
+		],
+		"lastUpdated": "2022-05-18",
+		"sources": ["https://www.epicgames.com/fortnite/en-US/faq"]
+	},
+	"fall_guys": {
+		"displayName": "Fall Guys: Ultimate Knockout",
+		"platforms": ["PC", "PlayStation"],
+		"list": [
+			[true, true],
+			[true, true]
+		],
+		"lastUpdated": "2022-05-22",
+		"sources": ["https://support.fallguys.com/hc/en-us/articles/4423541391890--Crossplay-How-do-I-play-with-PlayStation-Steam-Friends-Friends-on-another-platform-"]
+	},
+	"ark": {
+		"displayName": "ARK: Survival Evolved",
+		"platforms": ["PlayStation", "Xbox", "PC (Microsoft Store)", "Steam", "Epic Games Store", "Nintendo Switch"],
+		"list": [
+			[true, false, false, false, false, false],
+			[false, true, true, false, false, false],
+			[false, true, true, false, false, false],
+			[false, false, false, "*", "*", false],
+			[false, false, false, "*", "*", false],
+			[false, false, false, false, false, true]
+		],
+		"footnote": "Dedicated servers are needed.",
+		"seeMore": "https://ark.fandom.com/wiki/Server_configuration",
+		"lastUpdated": "2022-03-12"
+	},
+	"astroneer": {
+		"displayName": "Astroneer",
+		"platforms": ["PC (Steam)", "Xbox", "PC (Microsoft Store)", "PlayStation", "Nintendo Switch"],
+		"list": [
+			[true, "*", "*", "*", false],
+			["*", true, true, "*", false],
+			["*", true, true, "*", false],
+			["*", "*", "*", true, false],
+			[false, false, false, false, true]
+		],
+		"footnote": "Dedicated servers are needed.",
+		"seeMore": "https://astroneer.space/dedicatedserver/",
+		"lastUpdated": "2022-01-12",
+		"sources": [
+			"https://astroneer.fandom.com/wiki/Multiplayer",
+			"https://www.youtube.com/watch?v=o3LCJKpC9zo"
+		]
+	}
+}
