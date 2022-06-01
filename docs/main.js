@@ -100,7 +100,7 @@ fetch("database.json").then((response) => response.json()).then((database) => {
 		table.appendChild(tbody)
 
 		// Clean paragraphs
-		for (const element of document.getElementsByTagName("p")) element.remove()
+		while (document.getElementsByTagName("p").length > 0) document.getElementsByTagName("p").item(0).remove()
 
 		addDataToTable(gameTitle, selector, table, database)
 	})
