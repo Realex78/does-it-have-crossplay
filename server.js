@@ -1,9 +1,9 @@
 const express = require("express")
 const app = express()
 const port = 3000
-const database = require("./public/database.json")
+const database = require("./docs/database.json")
 
-app.use(express.static("public"))
+app.use(express.static("docs"))
 
 app.get("/database", (req, res) => {
     res.json(database)
