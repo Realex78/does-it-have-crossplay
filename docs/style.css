@@ -2,6 +2,6 @@ body {
     margin: 3em;
 }
 
-h1, h2, .table-success, .table-danger, .table-warning {
+h1, h2, th, td {
     text-align: center;
 }
